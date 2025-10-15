@@ -1,0 +1,106 @@
+.footer {
+  color: var(--color-prinary);
+  background-color: #ffffff;
+  line-height: 1.25;
+}
+
+.footer__container {
+  font-size: 15px;
+  padding-bottom: 32px
+}
+
+.footer__top-about {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    row-gap: 20px;
+}
+
+.footer__credits-info,
+.footer__copyright {
+    display: flex;
+    color: black;
+    font-size: 14px;
+}
+
+.footer__info-link {
+    color: #0070A0;
+    margin-left: 3px;
+}
+
+.footer__container-top { 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.footer__top-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer__menu-info, 
+.footer__menu-admin, 
+.footer__menu-newsletter {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 216px;
+    height: 216px;
+    gap: 16px;
+
+    span{
+        width: 200px;
+        font-size: 16px;
+    }
+}
+
+.footer__info-list, .footer__admin-list { 
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #626A72;
+    font-size: 13px;
+}
+
+.footer__newsletter-email { 
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    max-width: 228px;
+}
+
+.footer__email-input {
+    background: transparent;
+    padding: 7px 15px;
+    height: 44px;
+    border: none;
+    outline: none;
+    color: #626A72;
+    border-bottom: 1px solid #C2CDD8;
+}
+
+.footer__email-button {
+    position: absolute;
+    background: none;
+    border: none;
+    right: -22px;
+}
+
+.footer__hr {
+    border: 1px solid #DEE5EB;
+}
+
+.footer__bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    color: black;
+}
+
+.footer__content-socials { 
+    display: flex;
+    gap: 20px;
+}
