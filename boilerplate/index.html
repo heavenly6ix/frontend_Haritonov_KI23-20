@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Whirl</title>
+    
+
 
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
@@ -15,8 +18,44 @@
   </head>
   <body>
 
-    <h1>hello project</h1>
+    <header class = "header">
+      <div class="header__container container">
+        <div class="header__nav">
+          <a href = "#" class ="header__container-logo logo">
+          <img src="./src/assets/images/logo.svg" alt="Logo" />
+        </a>
+          <nav class = "header__container-menu">
+          <ul class="header__container-list">
+            <li class="header__container-item">
+              <a href = "#" class="header__container-link">Features</a>
+            </li>
+            <li class="header__container-item">
+              <a href = "#" class="header__container-link">Pricing</a>
+            </li>
+            <li class="header__container-item">
+              <a href = "#" class="header__container-link">Integrations</a>
+            </li>
+            <li class="header__container-item">
+              <a href = "#" class="header__container-link">Learn</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+        <div class="header__actions">
+            <a href = "#" class="header__actions-link">Sign in</a>
+            <button class="header__actions-button button">Book a demo</button>
+          </div>
+      
+      </div>
+    </header>
     
+    <div class="hero container">
+      <div class="hero--info">
+        <h1>Your everyday tasks, automated.</h1>
+        <p>Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.</p>
+        <button class="btn">Book a demo</button>
+      </div>
+    </div>
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

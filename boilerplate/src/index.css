@@ -3,3 +3,20 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+@import './styles/components/header.css';
+@import './styles/components/button.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
