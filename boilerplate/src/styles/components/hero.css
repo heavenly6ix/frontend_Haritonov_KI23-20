@@ -1,0 +1,44 @@
+.hero {
+    color: var(--color-primary);
+    background-color: #ffffff;
+    line-height: 1.25;
+}
+
+.hero__container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.hero__content-title {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    width: 485px;
+}
+
+.hero__content-description { 
+    font-size: 20px;
+    width: 340px;
+    line-height: 30px;
+}
+
+.hero__content-actions { 
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 17px;
+}
+
+.hero__actions-link {
+    display: flex;
+    color: #0070A0;
+    gap: 5px;
+}

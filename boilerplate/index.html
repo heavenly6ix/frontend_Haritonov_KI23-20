@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whirl</title>
     
-
-
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
     </style>
@@ -43,11 +41,33 @@
         </div>
         <div class="header__actions">
             <a href = "#" class="header__actions-link">Sign in</a>
-            <button class="header__actions-button button">Book a demo</button>
+            <button class="header__actions-button button-secondary">Book a demo</button>
           </div>
       
       </div>
     </header>
+
+    <main class = "main">
+      <section class = "hero">
+         <div class="hero__container container">
+          <div class="hero__container-content">
+            <div class="hero__content">
+               <h3 class="hero__content-title">Your everyday tasks, automated.</h3>
+               <p class="hero__content-description">Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.</p>
+               <div class="hero__content-actions">
+                <button class="hero__actions-button button-primary">Book a demo</button>
+                <a href="#" class="hero__actions-link">
+                  Learn more
+                  <img src="./src/assets/images/hero/Right_arrow.svg" alt="Send"/>
+                </a>
+               </div>
+            </div>
+            <div class="hero__content-img">
+              <img src="./src/assets/images/hero/hero_img.svg" alt="hero_img"/>
+            </div>
+         </div>
+      </section>
+    </main>
     
     <footer class="footer">
        <div class="footer__container container">
@@ -74,9 +94,9 @@
             </div>
           </div>
           <div class="footer__top-menu">
-            <div class="footer__menu-info">
-              Info
-              <ul class="footer__info-list">
+            <nav class="footer__menu">
+              <h3 class="footer__menu-title">Info</h3>
+              <ul class="footer__menu-list">
                 <li class="footer__list-item">
                   <a href = "#" class="footer__menu-link">Features</a>
                 </li>
@@ -95,10 +115,10 @@
                 <li class="footer__list-item">
                   <a href = "#" class="footer__menu-link">Privacy Policy</a>
                 </li>
-            </div>
-            <div class="footer__menu-admin">
-              Admin
-              <ul class="footer__admin-list">
+              </nav>
+            <nav class="footer__menu">
+              <h3 class="footer__menu-title">Admin</h3>
+              <ul class="footer__menu-list">
                 <li class="footer__list-item">
                   <a href = "#" class="footer__menu-link">Style Guide</a>
                 </li>
@@ -117,11 +137,11 @@
                 <li class="footer__list-item">
                   <a href = "#" class="footer__menu-link">404</a>
                 </li>
-            </div>
-            <div class="footer__menu-newsletter">
-              Newsletter
+              </nav>
+            <div class="footer__menu">
+              <h3 class="footer__menu-title">Newsletter</h3>
               <span>Sign up for the latest news, company insights, and Whirl updates.</span>
-              <form class="footer__newsletter-email">
+              <form class="footer__menu-email">
                 <input class="footer__email-input" type="email" placeholder="Your email">
                 <button class="footer__email-button">
                   <img src="./src/assets/images/Right_arrow.svg" alt="Send" />
