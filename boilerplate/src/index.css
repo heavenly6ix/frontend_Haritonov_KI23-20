@@ -8,6 +8,7 @@
 @import './styles/components/button.css';
 @import './styles/components/footer.css';
 @import './styles/components/hero.css';
+@import './styles/components/companies.css';
 
 body { 
   font-family: 'Inter', sans-serif;
