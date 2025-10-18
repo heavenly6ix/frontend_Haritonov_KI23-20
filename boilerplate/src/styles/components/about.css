@@ -1,0 +1,47 @@
+.about { 
+    color: var(--color-primary);
+    background-color: #ffffff;
+}
+
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 120px;
+}
+
+.about__container-content { 
+    display: flex;
+    gap: 32px;
+}
+
+.about__title-top {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500; 
+    font-size: 42px;
+}
+
+.about__title-bottom {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500; 
+    font-size: 41px;
+}
+
+.about__content { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.about__content-title { 
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 300; 
+    font-size: 25px;
+}
+
+.about__content-description { 
+    font-size: 15px;
+    width: 215px;
+    line-height: 24px;
+}
