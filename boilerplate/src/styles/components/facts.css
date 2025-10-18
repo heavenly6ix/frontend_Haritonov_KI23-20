@@ -1,0 +1,42 @@
+.facts { 
+    color: var(--color-primary);
+    background-color: #ffffff;
+}
+
+.facts__container { 
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-block: 120px;
+}
+
+.first { 
+    background-color: #FAEA73;
+}
+.second { 
+    background-color: #CCEFF6;
+}
+.third { 
+    background-color: #F7CEDC;
+}
+
+.facts__container-content { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 355px;
+    height: 250px;
+    padding: 32px;
+}
+
+.facts__container-title { 
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.facts__container-description { 
+    font-size: 15px;
+    width: 287px;
+}

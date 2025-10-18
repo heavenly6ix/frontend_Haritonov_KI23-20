@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    padding-block: 50px 100px;
+    padding-block: 40px;
 }
 
 .companies__container-title { 

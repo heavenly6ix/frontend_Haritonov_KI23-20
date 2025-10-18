@@ -9,6 +9,8 @@
 @import './styles/components/footer.css';
 @import './styles/components/hero.css';
 @import './styles/components/companies.css';
+@import './styles/components/facts.css';
+@import './styles/components/services.css';
 
 body { 
   font-family: 'Inter', sans-serif;
