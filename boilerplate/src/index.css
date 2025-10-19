@@ -12,6 +12,8 @@
 @import './styles/components/facts.css';
 @import './styles/components/services.css';
 @import './styles/components/about.css';
+@import './styles/components/instruction.css';
+@import './styles/components/features.css';
 
 body { 
   font-family: 'Inter', sans-serif;

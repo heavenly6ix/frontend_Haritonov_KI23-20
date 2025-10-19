@@ -1,0 +1,42 @@
+.instruction {
+    color: var(--color-white);
+    background-color: #0070A0;
+}
+
+.instruction__container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 80px;
+    padding-left: 60px;
+}
+
+.instruction__container-content { 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.instruction__content-title { 
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    width: 403px;
+}
+
+.instruction__content-description { 
+    font-size: 18px;
+    width: 481px;
+}
+
+.instruction__list { 
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.instruction__list-text { 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}

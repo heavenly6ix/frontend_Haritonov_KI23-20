@@ -1,5 +1,5 @@
 .facts { 
-    color: var(--color-primary);
+    color: var(--color-black);
     background-color: #ffffff;
 }
 
@@ -8,6 +8,7 @@
     justify-content: space-between;
     gap: 32px;
     padding-block: 120px;
+
 }
 
 .first { 
@@ -27,7 +28,8 @@
     gap: 8px;
     width: 355px;
     height: 250px;
-    padding: 32px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
 
 .facts__container-title { 
