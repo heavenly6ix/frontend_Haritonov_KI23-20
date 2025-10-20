@@ -14,6 +14,8 @@
 @import './styles/components/about.css';
 @import './styles/components/instruction.css';
 @import './styles/components/features.css';
+@import './styles/components/blog.css';
+@import './styles/components/started.css';
 
 body { 
   font-family: 'Inter', sans-serif;

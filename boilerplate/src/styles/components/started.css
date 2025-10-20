@@ -1,0 +1,48 @@
+.started{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    padding-block: 80px;
+}
+
+.started__container { 
+    display: flex;
+    flex-direction: column;
+    background-color: #E6F7FF;
+    padding: 63px;
+    gap: 36px;
+}
+
+.started__container-text { 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.started__text-title { 
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.started__text-description { 
+    font-size: 18px;
+    width: 481px;
+}
+
+.started__container-actions { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.started__list { 
+    display: flex;
+    gap: 32px;
+    color: #626A72;
+}
+
+.started__list-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
