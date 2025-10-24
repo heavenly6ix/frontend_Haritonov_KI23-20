@@ -1,6 +1,6 @@
 .blog { 
-    color: var(--color-black);
-    background-color: #F7F9FA;
+    color: var(--color-text-primary);
+    background-color: var(--color-background-secondary);
 }
 
 .blog__container { 
@@ -25,7 +25,7 @@
 
 .blog__title-link {
     font-size: 17px;
-    color: #0070A0;
+    color: var(--color-blue-primary);
 }
 
 .blog__container-content { 
@@ -35,7 +35,7 @@
 }
 
 .blog__content-post {
-    background-color: white;
+    background-color: var(--color-background-primary);
     width: 355px;
     height: 487px;
 }
@@ -49,8 +49,8 @@
 
 .blog__content-tag { 
     display: flex;
-    background-color: #E6F7FF;
-    color: #2C90C9;
+    background-color: var(--color-blue-secondary);
+    color: var(--color-tag);
     align-items: center;
     justify-content: center;
     height: 22px;

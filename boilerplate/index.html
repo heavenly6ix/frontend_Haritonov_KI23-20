@@ -13,36 +13,42 @@
     <style media="(prefers-color-scheme: dark)">
       @import url('./src/styles/colors/dark.css');
     </style>
+
+    <script type="module" src="/src/index.js"></script>
+
   </head>
   <body>
 
     <header class = "header">
       <div class="header__container container">
-        <div class="header__nav">
-          <a href = "#" class ="header__container-logo logo">
-            <img src="./src/assets/images/logo.svg" alt="Logo" />
+        <div class="header__container-content">
+          <a href = "#" class ="header__content-logo">
+            <img src="./src/assets/images/logo.svg" alt="Logo"/>
           </a>
-          <nav class = "header__container-menu">
-          <ul class="header__container-list">
-            <li class="header__container-item">
+          <nav class = "header__content-menu">
+          <ul class="header__content-list">
+            <li class="header__list-item">
               <a href = "#" class="header__container-link">Features</a>
             </li>
-            <li class="header__container-item">
+            <li class="header__list-item">
               <a href = "#" class="header__container-link">Pricing</a>
             </li>
-            <li class="header__container-item">
+            <li class="header__list-item">
               <a href = "#" class="header__container-link">Integrations</a>
             </li>
-            <li class="header__container-item">
+            <li class="header__list-item">
               <a href = "#" class="header__container-link">Learn</a>
             </li>
           </ul>
         </nav>
         </div>
         <div class="header__actions">
-            <a href = "#" class="header__actions-link">Sign in</a>
-            <button class="header__actions-button button-secondary">Book a demo</button>
-          </div>
+          <a href = "#" class="header__actions-link">Sign in</a>
+          <button class="header__actions-button button-secondary">Book a demo</button>
+          <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+            <span class="theme-toggle__icon">🌙</span>
+          </button>
+        </div>
       
       </div>
     </header>
@@ -364,7 +370,6 @@
          </div>
       </section>
     </main>
-    
     <footer class="footer">
        <div class="footer__container container">
         <div class="footer__container-top">
@@ -473,6 +478,6 @@
         </div>
        </div>
     </footer>
-    <script type="module" src="/src/index.js"></script>
+    <script src="/src/scripts/theme-toggle.js"></script>
   </body>
 </html>

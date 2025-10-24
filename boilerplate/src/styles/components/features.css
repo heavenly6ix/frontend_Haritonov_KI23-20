@@ -1,6 +1,6 @@
 .features { 
-    color: var(--color-black);
-    background-color: #ffffff;
+    color: var(--color-text-primary);
+    background-color: var(--color-background-primary);
 }
 
 .features__container { 

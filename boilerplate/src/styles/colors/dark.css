@@ -1,6 +1,12 @@
-:root {
+[data-theme='dark'] {
   color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  --color-background-primary: var(--color-jet);
+  --color-background-secondary: var(--color-raisin-black);
+  --color-text-primary: var(--color-white);
+  --color-text-secondary: var(--color-cadet-gray);
+  --color-border: var(--color-outer-space);
+  --color-blue-primary: var(--color-blue);
+  --color-blue-secondary: var(--color-midnight-green);
+  --color-tag: var(--color-light-cyan);
 }

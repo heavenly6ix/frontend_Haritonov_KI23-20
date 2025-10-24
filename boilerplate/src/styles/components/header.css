@@ -1,6 +1,9 @@
 .header {
-  background-color: #ffffff;
+  background-color: var(--color-background-primary);
   line-height: 1.25;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header__container {
@@ -10,25 +13,25 @@
   justify-content: space-between;
 }
 
-.header__nav {
+.header__container-content {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.header__container-list {
+.header__content-list {
   display: flex;
   float: left;
   column-gap: 24px;
 }
 
-.header__container-item {
+.header__list-item {
   font-size: 15px;
-  color: #33383F
+  color: var(--color-text-primary)
 }
 
 .header__actions {
-  color: #0070A0;
+  color: var(--color-blue-primary);
   display: flex;
   align-items: center;
   column-gap: 31px;

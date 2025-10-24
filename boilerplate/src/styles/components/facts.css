@@ -1,6 +1,6 @@
 .facts { 
-    color: var(--color-black);
-    background-color: #ffffff;
+    color: var(--color-text-primary);
+    background-color: var(--color-background-primary);
 }
 
 .facts__container { 
@@ -12,13 +12,16 @@
 }
 
 .first { 
-    background-color: #FAEA73;
+    background-color: var(--color-maize);
+    color: var(--color-black);
 }
 .second { 
     background-color: #CCEFF6;
+    color: var(--color-black);
 }
 .third { 
     background-color: #F7CEDC;
+    color: var(--color-black);
 }
 
 .facts__container-content { 

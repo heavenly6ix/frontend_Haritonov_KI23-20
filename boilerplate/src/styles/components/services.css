@@ -1,6 +1,6 @@
 .services { 
-    color: var(--color-black);
-    background-color: #F7F9FA;
+    color: var(--color-text-primary);
+    background-color: var(--color-background-secondary);
 }
 
 .services__container { 
@@ -39,8 +39,8 @@
     align-items: flex-start;
     gap: 16px;
     width: 450px;
-    border-top: 1px solid #C2CDD8;
-    border-bottom: 1px solid #C2CDD8;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     padding-top: 16px;
     padding-left: 12px;
 }

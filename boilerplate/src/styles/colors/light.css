@@ -1,6 +1,12 @@
-:root {
+[data-theme='light'] {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  --color-background-primary: var(--color-white);
+  --color-background-secondary: var(--color-seasalt);
+  --color-text: var(--color-black);
+  --color-text-secondary: var(--color-gray);
+  --color-border: var(--color-light-gray);
+  --color-blue-primary: var(--color-honolulu-blue);
+  --color-blue-secondary: var(--color-light-blue);
+  --color-tag: var(--color-blue);
 }

@@ -1,6 +1,8 @@
 @import './styles/global/media.css';
 @import './styles/global/fonts.css';
 @import './styles/colors/colors.css';
+@import './styles/colors/light.css';
+@import './styles/colors/dark.css';
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';

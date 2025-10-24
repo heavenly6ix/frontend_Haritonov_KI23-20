@@ -1,19 +1,18 @@
 .button-primary {
   color: var(--color-white);
-  line-height: 1.25;
-  width: 174px;
+  width: fit-content;
   padding: 12px 32px;
   font-size: 17px;
-  background-color: #0070A0;
+  background-color: var(--color-blue-primary);
   border: none;
 }
 
 .button-secondary {
   color: var(--color-white);
-  line-height: 1.25;
   padding: 10px 20px;
+  width: fit-content;
   font-weight: 500;
   font-size: 15px;
-  background-color: #0070A0;
+  background-color: var(--color-blue-primary);
   border: none;
 }

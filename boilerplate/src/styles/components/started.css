@@ -1,13 +1,13 @@
 .started{
-    color: var(--color-black);
-    background-color: var(--color-white);
+    color: var(--color-text-primary);
+    background-color: var(--color-background-primary);
     padding-block: 80px;
 }
 
 .started__container { 
     display: flex;
     flex-direction: column;
-    background-color: #E6F7FF;
+    background-color: var(--color-blue-secondary);
     padding: 63px;
     gap: 36px;
 }
@@ -38,7 +38,7 @@
 .started__list { 
     display: flex;
     gap: 32px;
-    color: #626A72;
+    color: var(--color-text-secondary);
 }
 
 .started__list-item {

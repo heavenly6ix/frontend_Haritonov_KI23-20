@@ -1,6 +1,6 @@
 .hero {
-    color: var(--color-black);
-    background-color: #ffffff;
+    color: var(--text-primary);
+    background-color:var(--color-background-primary);
     line-height: 1.25;
 }
 
@@ -39,6 +39,6 @@
 
 .hero__actions-link {
     display: flex;
-    color: #0070A0;
+    color: var(--color-blue-primary);
     gap: 5px;
 }
