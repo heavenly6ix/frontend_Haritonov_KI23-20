@@ -42,3 +42,35 @@
     color: var(--color-blue-primary);
     gap: 5px;
 }
+
+@media (width <= 512px) { 
+    .hero__container-content { 
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hero__content-title { 
+        font-size: 32px;
+        width: 300px;
+    }
+    
+    .hero__content-description { 
+        font-size: 16px;
+    }
+
+    .hero__content-img {
+        display: none;
+    }
+}
+
+@media (512px < width <= 822px) { 
+    .hero__content-title { 
+        font-size: 42px;
+    }
+
+    .hero__content-description { 
+        font-size: 18px;
+        width: 400px;
+    }
+}

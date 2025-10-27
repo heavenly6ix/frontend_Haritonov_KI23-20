@@ -16,3 +16,10 @@
   background-color: var(--color-blue-primary);
   border: none;
 }
+
+.theme-toggle { 
+  padding: 9.5px 20px;
+  width: fit-content;
+  background-color: var(--color-blue-primary);
+  border: none;
+}

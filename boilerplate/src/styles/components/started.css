@@ -46,3 +46,25 @@
     align-items: center;
     gap: 7px;
 }
+
+@media (width <= 512px) {
+    .started__container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .started__text-title { 
+        font-size: 32px;
+    }
+
+    .started__text-description { 
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .started__list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

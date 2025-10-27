@@ -40,3 +40,42 @@
     gap: 8px;
     font-size: 16px;
 }
+
+@media (width <= 512px) { 
+    .instruction__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .instruction__container-img {
+        display: none;
+    }
+
+    .instruction__content-title { 
+        font-size: 32px;
+        width: 320px;
+    }
+
+    .instruction__content-description { 
+        font-size: 16px;
+        width: 320px;
+    }
+}
+
+@media (512px < width <= 822px) { 
+    .instruction__container{
+        display: flex;
+        gap: 40px;
+    }
+
+    .instruction__content-title { 
+        font-size: 36px;
+    }
+
+    .instruction__content-description { 
+        font-size: 18px;
+        width: 400px;
+    }
+}

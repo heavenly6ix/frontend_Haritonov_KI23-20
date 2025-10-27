@@ -79,3 +79,34 @@
 .blog__text-date {
     font-size: 12px;
 }
+
+@media (width <= 512px) {
+    .blog__container { 
+        display: flex;
+        gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blog__container-title { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .blog__title {
+        font-size: 32px;
+    }
+
+    .blog__container-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (512px < width <= 822px) { 
+    .blog__container-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

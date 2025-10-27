@@ -65,5 +65,36 @@
     padding-bottom: 16px;
 }
 
+@media (width <= 512px) { 
 
+    .services__container {
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .services__title-top,
+    .services__title-bottom {
+        font-size: 32px;
+    }
+
+    .services__actions-dropdown { 
+        width: 335px;
+    }
+
+    .services__dropdown-summary { 
+        display: flex;
+        width: 270px;
+    } 
+
+    .services__content-image { 
+        display: none;
+    }
+}
  
+@media (512px < width <= 822px) { 
+    .services__title-top,
+    .services__title-bottom {
+        font-size: 36px;
+    }
+}

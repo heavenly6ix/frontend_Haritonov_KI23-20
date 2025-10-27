@@ -45,3 +45,38 @@
     font-size: 15px;
     width: 287px;
 }
+
+@media (width <= 512px) { 
+    .facts__container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .facts__container-content {
+        width: 340px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (512px < width <= 822px) { 
+    .facts__container {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .facts__container-content { 
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .facts__container-description { 
+    font-size: 15px;
+    width: 500px;
+}
+}

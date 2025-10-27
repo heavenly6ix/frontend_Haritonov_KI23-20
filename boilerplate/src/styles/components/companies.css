@@ -20,3 +20,19 @@
     gap: 60px;
     align-items: center;
 }
+
+@media (width <= 512px) { 
+    .companies__container {
+        display: flex;
+        gap: 35px;
+    }
+
+    .companies__container-title { 
+        font-size: 20px;
+    }
+
+    .companies__container-logos {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
