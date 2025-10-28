@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-@media (width <= 512px) { 
+@media (width <= 760px) { 
     .companies__container {
         display: flex;
         gap: 35px;

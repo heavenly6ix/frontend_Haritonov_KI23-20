@@ -37,7 +37,7 @@
   column-gap: 31px;
 }
 
-@media (width <= 512px) {
+@media (width <= 770px) {
   .header {
     position: static;
   }
@@ -58,9 +58,21 @@
   }
 }
 
-@media (width <= 822px) { 
+@media (770px < width <= 1020px) { 
+  .header__content-list {
+    font-size: 14px;
+  }
+
   .header__actions{
     display: flex;
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .header__actions-link { 
+    font-size: 15px;
+  }
+
+  .header__list-item { 
+    font-size: 15px;
   }
 }

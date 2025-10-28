@@ -47,7 +47,7 @@
     gap: 7px;
 }
 
-@media (width <= 512px) {
+@media (width <= 760px) {
     .started__container {
         display: flex;
         align-items: center;

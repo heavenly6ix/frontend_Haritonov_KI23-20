@@ -1,4 +1,4 @@
-.button-primary {
+.primary {
   color: var(--color-white);
   width: fit-content;
   padding: 12px 32px;
@@ -7,7 +7,7 @@
   border: none;
 }
 
-.button-secondary {
+.button-header {
   color: var(--color-white);
   padding: 10px 20px;
   width: fit-content;
@@ -22,4 +22,14 @@
   width: fit-content;
   background-color: var(--color-blue-primary);
   border: none;
+}
+
+@media (512px < width <= 822px) {
+  .button-header { 
+    font-size: 12px;
+  }
+
+  .theme-toggle { 
+    padding: 7.5px 15px;
+  }
 }

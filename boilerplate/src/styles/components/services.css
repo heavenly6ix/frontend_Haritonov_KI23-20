@@ -65,7 +65,7 @@
     padding-bottom: 16px;
 }
 
-@media (width <= 512px) { 
+@media (width <= 760px) { 
 
     .services__container {
         display: flex;
@@ -78,13 +78,19 @@
         font-size: 32px;
     }
 
+    .servive__content-actions {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .services__actions-dropdown { 
-        width: 335px;
+        width: max-content;
     }
 
     .services__dropdown-summary { 
         display: flex;
-        width: 270px;
+        width: 280px;
     } 
 
     .services__content-image { 
@@ -92,7 +98,7 @@
     }
 }
  
-@media (512px < width <= 822px) { 
+@media (760px < width <= 1020px) { 
     .services__title-top,
     .services__title-bottom {
         font-size: 36px;

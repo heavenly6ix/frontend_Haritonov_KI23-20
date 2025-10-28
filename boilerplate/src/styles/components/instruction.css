@@ -41,7 +41,7 @@
     font-size: 16px;
 }
 
-@media (width <= 512px) { 
+@media (width <= 760px) { 
     .instruction__container {
         display: flex;
         flex-direction: column;
@@ -64,7 +64,7 @@
     }
 }
 
-@media (512px < width <= 822px) { 
+@media (760px < width <= 1020px) { 
     .instruction__container{
         display: flex;
         gap: 40px;

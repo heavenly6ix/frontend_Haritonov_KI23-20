@@ -80,7 +80,7 @@
     font-size: 12px;
 }
 
-@media (width <= 512px) {
+@media (width <= 760px) {
     .blog__container { 
         display: flex;
         gap: 50px;
@@ -104,7 +104,7 @@
     }
 }
 
-@media (512px < width <= 822px) { 
+@media (760px < width <= 1020px) { 
     .blog__container-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
